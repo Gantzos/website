@@ -1,0 +1,214 @@
+:root {
+    --red: #f22c53;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding-top: 8.5rem;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.navbar {
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 3rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    text-align: left;
+    background-color: white;
+}
+
+.logo {
+    width: 2rem;
+}
+
+.colorful {
+    color: var(--red);
+    opacity: 1;
+}
+
+.title {
+    font-size: 4.25rem;
+    font-weight: 600;
+}
+
+.header h3 {
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.navbar button {
+    padding: .5rem;
+    background-color: var(--red);
+    color: white;
+    border-radius: 1rem;
+    outline: none;
+    border: 0px;
+    min-width: 8rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    float: right;
+    margin-right: 9rem;
+    cursor: pointer;
+    transition: opacity .2s;
+}
+
+.navbar button:hover {
+    opacity: .9;
+}
+
+.project {
+    padding: 2rem;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: .5rem;
+    color: white;
+    margin-bottom: 1rem
+}
+
+.team {
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+}
+
+.team > h1 {
+    margin-bottom: 2rem;
+}
+
+.person {
+    padding: 2rem;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: .5rem;
+    color: white;
+    margin-bottom: 1rem
+}
+
+.person h3 {
+    font-weight: 600;
+    line-height: .8;
+    display: inline-block;
+}
+
+.person p {
+    opacity: .8;
+    display: inline-block;
+    margin-left: .25rem;
+}
+
+.projects > h1 {
+    margin-bottom: 2rem;
+}
+
+.project h3 {
+    font-weight: 600;
+    line-height: .8;
+}
+
+.project p {
+    opacity: .8;
+}
+
+.person .avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    display: block;
+    margin-top:.5rem;
+}
+
+.person[data-name="rgantzos"] {
+    background: linear-gradient(245.73deg, #f73939 0%, #be0b0b 100%)
+}
+
+.person[data-name="materarc"] {
+    background: linear-gradient(245.73deg, #ff8000 0%, #f09235 100%)
+}
+
+.person[data-name="daniel"] {
+    background: linear-gradient(245.73deg, #359ff0 0%, #414dd2 100%)
+}
+
+.project[data-name="scratchtools"] {
+    background: linear-gradient(245.73deg, #ffac27 0%, #FF8000 100%)
+}
+
+.project[data-name="postlit"], .person {
+    background: linear-gradient(245.73deg, #14f789 0%, #05b660 100%)
+}
+
+.project[data-name="tdg"] {
+    background: linear-gradient(245.73deg, #f7cd14 0%, #b69605 100%)
+}
+
+.project button, .person button {
+    padding: .6rem;
+    background-color: white;
+    color: black;
+    border-radius: 1.2rem;
+    outline: none;
+    border: 0px;
+    min-width: 10rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.05rem;
+    float: right;
+    cursor: pointer;
+    transition: opacity .2s;
+    float: right;
+    position: relative;
+    top: -3.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.project button:hover, .person button:hover {
+    opacity: .8;
+}
+
+.footer .colorless {
+    width: 1.5rem;
+    opacity: .5;
+}
+
+.footer > span {
+    opacity: .5;
+    font-weight: 600;
+    position: relative;
+    top: -.25rem;
+    margin-left: .25rem;
+}
+
+.footer {
+    text-align: left;
+    background-color: rgb(232, 232, 232);
+    padding: 4rem;
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    margin-top: 2rem;
+    padding-top: 4.5rem;
+}
+
+.footer .right {
+    opacity: .5;
+    float: right;
+    text-align: right;
+    width: 20%;
+    margin-right: 8rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
